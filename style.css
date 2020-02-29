@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+.login {
+  margin: auto;
+  width: 33%;
+  border: 3px solid black;
+  padding: 10px;
+  /* height: 60vh; */
+  background-color: rgb(164, 196, 223);
+}
+
+.center {
+  margin: auto;
+  width: 33%;
+  /* min-width: 200px; */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.center2 {
+  margin: auto;
+  width: 50%;
+  min-width: 400px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  background-color: rgb(169, 138, 138);
+  width: 33%;
+  height: 20vh;
+  margin: 20px;
+  font-size: 15px;
+  /* border: solid rgb(34, 7, 7); */
+  border-style: outset;
+}
