@@ -5,19 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Skejit</title>
   <link rel="stylesheet" href="./style.css"/>
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet"> -->
 </head>
+
 <body>
-<!--Navigation Bar to be copied to all pages-->
-  <h1 class="center">Skejit</h1>
-    <div class="login">
-      <h3 class="center">Username:</h3><input class="center">
-      <h3 class="center">Password:</h3><input class="center" type="password"><br>
-      <button class="center">Login</button>
+
+  <nav>
+    <!-- <i class="fas fa-bars"></i> -->
+    <ul class="hidden--mobile">
+      <li class="accent">Home</li>
+      <li class="accent">Edit Profile</li>
+      <li class="accent">My Appointments</li>
+      <li>Doctor Search: <input placeholder="Search"></li>
+    </ul>
+  </nav>
+
+
+  <header class="header">
+    <h1>Skejit</h1>
+  </header>
+
+  <div class="loginBox">
+    <h2>Sign in</h2>
+    <input class="signin" placeholder="Username">
+    <input class="signin" placeholder="Password" type="password">
+    <button class="login">Login</button>
+
+    <div class="noaccount">
+      <h2>Don't have an account?</h2>
+    </div>
+
+    <div class="buttonGroup">
+      <button class="buttons">Register now</button>
+      <p>OR</p>
+      <button class="buttons">Browse Doctors</button>
+    </div>
   </div>
-  <div class="center2">
-    <button class="link">Create New Patient Account</button>
-    <button class="link">Create New Doctor Account</button>
-    <button class="link">Browse Doctors</button>
-  </div>
+
+  <footer>
+    <ul class="inset">
+      <li class="accent">About</li>
+      <li class="accent">Contact</li>
+    </ul>
+  </footer>
+
+  <!-- <script src="index.js"></script> -->
+
 </body>
+
 </html>
