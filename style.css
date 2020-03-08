@@ -1,6 +1,6 @@
 body {
   background-color: rgb(53, 51, 51);
-  background-image: url(./pics/hallway.jpg);
+  background-image: url(./pics/pulse.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   color: black;
@@ -40,7 +40,8 @@ li {
 
 .accent:hover {
   background-color: white;
-  color: black
+  color: black;
+  cursor: pointer;
 }
 
 /* @media (min-width: 550px) {
@@ -63,10 +64,15 @@ li {
   padding: 0%;
   display: flex;
   justify-content: center;
+  text-shadow: -3px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 h1 {
   margin: 0;
+}
+
+.border {
+  text-shadow: -1px 0 rgb(48, 48, 48), 0 1px rgb(48, 48, 48), 1px 0 rgb(48, 48, 48), 0 -1px rgb(48, 48, 48);
 }
 
 .loginBox {
@@ -103,7 +109,7 @@ h1 {
   display: flex;
   justify-content: center;
   margin: 5% 40% 2% 40%;
-  background-color: rgb(120, 120, 242);
+  background-color: rgb(208, 135, 0);
   color: white;
   border: 0px;
   border-radius: 5px;
@@ -113,7 +119,8 @@ h1 {
 }
 
 .login:hover {
-  background-color: rgb(85, 85, 142);
+  background-color: rgb(162, 106, 1);
+  cursor: pointer;
 }
 
 .noaccount {
@@ -143,7 +150,7 @@ p {
 .buttons {
   min-width: 40%;
   padding: 2%;
-  background-color: rgb(208, 135, 0);
+  background-color: rgb(120, 120, 242);
   border: 0px;
   border-radius: 5px;
   color: white;
@@ -152,7 +159,8 @@ p {
 }
 
 .buttons:hover {
-  background-color: rgb(162, 106, 1);
+  background-color: rgb(85, 85, 142);
+  cursor: pointer;
 }
 
 footer {

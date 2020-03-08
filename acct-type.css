@@ -13,7 +13,6 @@ nav {
   box-shadow: 0 3px 3px 1px rgba(154, 154, 154, 0.639);
   display: flex;
   justify-content: space-between;
-
 }
 
 ul {
@@ -35,17 +34,54 @@ li {
 .accent:hover {
   background-color: white;
   color: black;
+  cursor: pointer;
 }
 
 h3 {
   font-size: 36px;
   margin: 5px 30px;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#vertcenter {
+  margin: 10% 10% 0% 10%;
 }
 
 .center {
   display: flex;
-  justify-content: center;
-  margin: 75px;
+  justify-content: space-around;
+  align-content: center;
+  margin: 1% 10% 0% 10%;
+}
+
+img {
+  display: block;
+  max-width: 40%;
+  max-height: 40%;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+}
+
+button {
+  padding: 3%;
+  margin: 2%;
+  max-width: 30%;
+  align-self: flex-start;
+  border-radius: 10px;
+  background-color: rgb(120, 120, 242);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button:hover {
+  background-color: rgb(85, 85, 142);
+  cursor: pointer;
+
 }
 
 /* footer */
